@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.card--container {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card--left img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.card--left {
+  flex: 1 1 0;
+}
+.card--right {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+/*# sourceMappingURL=main.css.map */
